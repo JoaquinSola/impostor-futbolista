@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Impostor Futbolista - Sala</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div>
+        <a class="home" href="/">← Inicio</a>
+        <h1>Sala <span id="roomId">—</span></h1>
+        <div class="status">
+          Estado: <span id="status">lobby</span>
+        </div>
+      </div>
+      <div class="share">
+        <button id="copyLink">Copiar enlace</button>
+      </div>
+    </header>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Jugadores</h2>
+        <ul id="players"></ul>
+      </div>
+
+      <div class="card">
+        <h2>Listo para jugar</h2>
+        <p>Cuando todos estén listos, la partida comienza.</p>
+        <button id="btnReady" data-ready="false">Estoy listo ✅</button>
+      </div>
+    </div>
+
+    <!-- Sección de votación -->
+    <div class="card" id="votingSection" style="display:none; margin-top:20px;">
+      <h2>Votación: ¿Quién es el impostor?</h2>
+      <select id="voteSelect"></select>
+      <button id="voteBtn">Votar</button>
+    </div>
+  </div>
+
+  <!-- Overlay secreto para rol/asignación -->
+  <div id="secretOverlay" class="overlay hidden">
+    <div class="overlay-card">
+      <h2 id="secretTitle">Tu rol</h2>
+      <p id="secretText"></p>
+      <button id="closeSecret">Cerrar</button>
+    </div>
+  </div>
+
+  <!-- POPUP PARA VOTACIÓN -->
+<div id="popup" class="popup-overlay hidden">
+  <div class="popup-card">
+    <h2 id="popupTitle">Título</h2>
+    <p id="popupMessage">Mensaje</p>
+    <button id="popupBtn">Cerrar</button>
+  </div>
+</div>
+
+  <!-- POPUP PARA VER QUIE SOY -->
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/client.js"></script>
+</body>
+</html>

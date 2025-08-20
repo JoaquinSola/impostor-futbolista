@@ -1,0 +1,226 @@
+/* Body y contenedor general */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #4a90e2, #50e3c2);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.header .home {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header .status {
+  font-weight: bold;
+}
+
+.header .share button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f5a623;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.header .share button:hover {
+  background-color: #f8e71c;
+}
+
+/* Grid de cards */
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 250px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* Botones */
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f5a623;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #f8e71c;
+  transform: scale(1.05);
+}
+
+/* Overlay secreto */
+.overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.overlay-card {
+  background: #222;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.overlay.hidden {
+  display: none;
+}
+
+/* Lista de jugadores */
+#players {
+  list-style: none;
+  padding: 0;
+}
+
+#players li {
+  padding: 5px 10px;
+  background: rgba(255,255,255,0.1);
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+/* Sección de votación */
+#votingSection {
+  display: none;
+  margin-top: 20px;
+  background: rgba(0,0,0,0.4);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+#votingSection select {
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+}
+
+#votingSection button {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+#votingSection button:hover {
+  background-color: #c0392b;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.popup-overlay.show {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.popup-overlay.hidden {
+  display: none;
+}
+
+.popup-card {
+  background: #222;
+  padding: 30px 20px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  transform: translateY(-50px);
+  transition: transform 0.3s ease;
+}
+
+.popup-overlay.show .popup-card {
+  transform: translateY(0);
+}
+
+.popup-card h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #f5a623;
+}
+
+.popup-card p {
+  margin: 0 0 20px;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.popup-card button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f5a623;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.popup-card button:hover {
+  background-color: #f8e71c;
+  transform: scale(1.05);
+}
+
+
+

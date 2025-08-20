@@ -1,0 +1,22 @@
+{
+  "name": "impostor-multiplayer",
+  "version": "1.0.0",
+  "description": "Juego web multiplayer tipo 'Impostor' con futbolistas (Node + Socket.io)",
+  "main": "server.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "nanoid": "^5.1.5",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "keywords": [],
+  "author": ""
+}
