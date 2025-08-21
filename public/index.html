@@ -1,44 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Impostor Web - Lobby</title>
-  <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impostor Futbolista - Lobby</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Bienvenido al juego Impostor</h1>
-    
-    <div class="form-group">
-      <input id="nameInput" placeholder="Tu nombre">
-    </div>
-    
-    <div class="form-group">
-      <button id="createRoom">Crear sala</button>
+    <div class="lobby-container">
+        <h1 class="title">Impostor Futbolista ⚽</h1>
+        <p class="subtitle">Descubre al impostor en el equipo.</p>
+
+        <div class="card form-card">
+            <h2>Crear o Unirse a una sala</h2>
+            <div class="form-group">
+                <label for="nameInput">Tu nombre:</label>
+                <input id="nameInput" type="text" placeholder="Ej. CR7">
+            </div>
+
+            <div class="button-group">
+                <button id="createRoom" class="btn btn-create">Crear Sala</button>
+            </div>
+
+            <div class="divider">
+                <span>o</span>
+            </div>
+
+            <div class="form-group join-group">
+                <label for="joinRoomInput">ID de sala:</label>
+                <input id="joinRoomInput" type="text" placeholder="Ej. ABC1234">
+                <button id="joinRoom" class="btn btn-join">Unirse</button>
+            </div>
+        </div>
     </div>
 
-    <div class="form-group">
-      <input id="joinRoomInput" placeholder="ID de sala">
-      <button id="joinRoom">Unirse a sala</button>
-    </div>
-  </div>
-
-  <script>
-    document.getElementById("createRoom").addEventListener("click", async () => {
-      const name = document.getElementById("nameInput").value || "SinNombre";
-      const res = await fetch("/api/create-room");
-      const data = await res.json();
-      const roomId = data.roomId;
-      window.location.href = `/room/${roomId}?name=${encodeURIComponent(name)}`;
-    });
-
-    document.getElementById("joinRoom").addEventListener("click", () => {
-      const name = document.getElementById("nameInput").value || "SinNombre";
-      const roomId = document.getElementById("joinRoomInput").value.trim();
-      if (!roomId) return alert("Ingrese un ID de sala válido");
-      window.location.href = `/room/${roomId}?name=${encodeURIComponent(name)}`;
-    });
-  </script>
+    <script src="/index.js"></script>
 </body>
 </html>
