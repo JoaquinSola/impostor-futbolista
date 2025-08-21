@@ -56,14 +56,32 @@
     $("#voteBtn").disabled = false;
   });
 
-  socket.on("roleAssigned", ({ role, value }) => {
-    const overlay = $("#secretOverlay");
-    $("#secretTitle").textContent = role === "Impostor" ? "Sos el IMPOSTOR 🤫" : "Tu identidad secreta";
-    $("#secretText").textContent = role === "Impostor"
-      ? "No reveles tu identidad. Tu objetivo es confundír a los demás."
-      : `Sos: ${value}. No dejes que el impostor te descubra.`;
-    overlay.classList.remove("hidden");
-  });
+socket.on("roleAssigned", ({ role, value, image }) => {
+    const overlay = $("#secretOverlay");
+    const secretImage = $("#secretImage");
+    const secretText = $("#secretText");
+    const secretTitle = $("#secretTitle");
+
+    // Limpiamos la imagen anterior
+    secretImage.style.display = 'none';
+    secretImage.src = '';
+    secretImage.alt = '';
+
+    if (role === "Impostor") {
+        secretTitle.textContent = "Sos el IMPOSTOR 🤫";
+        secretText.textContent = "No reveles tu identidad. Tu objetivo es confundir a los demás.";
+    } else {
+        secretTitle.textContent = "Tu identidad secreta";
+        secretText.textContent = `Eres: ${value}. No dejes que el impostor te descubra.`;
+        // Si hay una imagen, la mostramos
+        if (image) {
+            secretImage.src = image;
+            secretImage.alt = `Imagen de ${value}`;
+            secretImage.style.display = 'block';
+        }
+    }
+    overlay.classList.remove("hidden");
+});
 
   $('#closeSecret').addEventListener('click', () => {
     $('#secretOverlay').classList.add('hidden');

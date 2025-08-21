@@ -1,67 +1,156 @@
 {
   "footballers": [
-    "Lionel Messi",
-    "Cristiano Ronaldo",
-    "Kylian Mbappé",
-    "Erling Haaland",
-    "Kevin De Bruyne",
-    "Robert Lewandowski",
-    "Vinicius Jr.",
-    "Jude Bellingham",
-    "Mohamed Salah",
-    "Harry Kane",
-    "Phil Foden",
-    "Federico Valverde",
-    "Lautaro Martínez",
-    "Ángel Di María",
-    "Neymar Jr.",
-    "Luka Modrić",
-    "Toni Kroos",
-    "Casemiro",
-    "Sergio Ramos",
-    "Marc-André ter Stegen",
-    "Dibu Martínez",
-    "Julián Álvarez",
-    "Enzo Fernández",
-    "Alexis Mac Allister",
-    "Guido Rodríguez",
-    "Nahuel Molina",
-    "Marcos Acuña",
-    "Nicolás Otamendi",
-    "Exequiel Palacios",
-    "Paulo Dybala",
-    "Sergio Agüero",
-    "Juan Román Riquelme",
-    "Carlos Tevez",
-    "Diego Maradona",
-    "Esteban Cambiasso",
-    "Hernán Crespo",
-    "Gabriel Batistuta",
-    "Diego Forlán",
-    "Kaká",
-    "Zlatan Ibrahimović",
-    "Gareth Bale",
-    "Andrés Iniesta",
-    "Xavi Hernández",
-    "Thiago Silva",
-    "Manuel Neuer",
-    "Thomas Müller",
-    "Joshua Kimmich",
-    "Son Heung-min",
-    "Rafael Leão",
-    "Victor Osimhen",
-    "Julián Álvarez",
-    "Guido Carrillo",
-    "Lucas Pratto",
-    "Ignacio Fernández",
-    "Darío Benedetto",
-    "Sebastián Villa",
-    "Miguel Borja",
-    "Adam Bareiro",
-    "Rodrigo Aliendro",
-    "Nicolás de la Cruz",
-    "Exequiel Zeballos",
-    "Enzo Pérez",
-    "Alan Varela"
+  {
+  "name": "Lionel Messi",
+  "image": "/imagenes/Lionel_Messi.jpg"
+  },
+  {
+  "name": "Cristiano Ronaldo",
+  "image": "/imagenes/Cristiano_Ronaldo.jpg"
+  },
+  {
+  "name": "Kylian Mbappé",
+  "image": "/imagenes/Kylian_Mbappé.jpg"
+  },
+  {
+  "name": "Erling Haaland",
+  "image": "/imagenes/Erling_Haaland.jpg"
+  },
+  {
+  "name": "Kevin De Bruyne",
+  "image": "/imagenes/Kevin_DeBruyne.jpg"
+  },
+  {
+  "name": "Robert Lewandowski",
+  "image": "/imagenes/Robert_Lewandowski.jpg"
+  },
+  {
+  "name": "Vinicius Jr.",
+  "image": "/imagenes/Vinicius_Jr.jpg"
+  },
+  {
+  "name": "Jude Bellingham",
+  "image": "/imagenes/Jude_Bellingham.jpg"
+  },
+  {
+  "name": "Mohamed Salah",
+  "image": "/imagenes/Mohamed_Salah.jpg"
+  },
+  {
+  "name": "Harry Kane",
+  "image": "/imagenes/Harry_Kane.jpg"
+  },
+  {
+  "name": "Phil Foden",
+  "image": "/imagenes/Phil_Foden.jpg"
+  },
+  {
+  "name": "Federico Valverde",
+  "image": "/imagenes/Federico_Valverde.jpg"
+  },
+  {
+  "name": "Lautaro Martínez",
+  "image": "/imagenes/Lautaro_Martínez.jpg"
+  },
+  {
+  "name": "Ángel Di María",
+  "image": "/imagenes/Ángel_Di_María.jpg"
+  },
+  {
+  "name": "Neymar Jr.",
+  "image": "/imagenes/Neymar_Jr.jpg"
+  },
+  {
+  "name": "Luka Modrić",
+  "image": "/imagenes/Luka_Modrić.jpg"
+  },
+  {
+  "name": "Toni Kroos",
+  "image": "/imagenes/Toni_Kroos.jpg"
+  },
+  {
+  "name": "Casemiro",
+  "image": "/imagenes/Casemiro.jpg"
+  },
+  {
+  "name": "Sergio Ramos",
+  "image": "/imagenes/Sergio_Ramos.jpg"
+  },
+  {
+  "name": "Marc-André ter Stegen",
+  "image": "/imagenes/Marc-André_ter_Stegen.jpg"
+  },
+  {
+  "name": "Dibu Martínez",
+  "image": "/imagenes/Dibu_Martínez.jpg"
+  },
+  {
+  "name": "Julián Álvarez",
+  "image": "/imagenes/Julián_Álvarez.jpg"
+  },
+  {
+  "name": "Enzo Fernández",
+  "image": "/imagenes/Enzo_Fernández.jpg"
+  },
+  {
+  "name": "Alexis Mac Allister",
+  "image": "/imagenes/Alexis_Mac_Allister.jpg"
+  },
+  {
+  "name": "Guido Rodríguez",
+  "image": "/imagenes/Guido_Rodríguez.jpg"
+  },
+  {
+  "name": "Nahuel Molina",
+  "image": "/imagenes/Nahuel_Molina.jpg"
+  },
+  {
+  "name": "Marcos Acuña",
+  "image": "/imagenes/Marcos_Acuña.jpg"
+  },
+  {
+  "name": "Nicolás Otamendi",
+  "image": "/imagenes/Nicolás_Otamendi.jpg"
+  },
+  {
+  "name": "Exequiel Palacios",
+  "image": "/imagenes/Exequiel_Palacios.jpg"
+  },
+  {
+  "name": "Paulo Dybala",
+  "image": "/imagenes/Paulo_Dybala.jpg"
+  },
+  {
+  "name": "Sergio Agüero",
+  "image": "/imagenes/Sergio_Agüero.jpg"
+  },
+  {
+  "name": "Juan Román Riquelme",
+  "image": "/imagenes/Juan_Román_Riquelme.jpg"
+  },
+  {
+  "name": "Carlos Tevez",
+  "image": "/imagenes/Carlos_Tevez.jpg"
+  },
+  {
+  "name": "Diego Maradona",
+  "image": "/imagenes/Diego_Maradona.jpg"
+  },
+  {
+  "name": "Andrés Iniesta",
+  "image": "/imagenes/Andrés_Iniesta.jpg"
+  },
+  {
+  "name": "Xavi Hernández",
+  "image": "/imagenes/Xavi_Hernández.jpg"
+  },
+  {
+  "name": "Zlatan Ibrahimović",
+  "image": "/imagenes/Zlatan_Ibrahimović.jpg"
+  },
+  {
+  "name": "Gareth Bale",
+  "image": "/imagenes/Gareth_Bale.jpg"
+  }
   ]
-}
+ }

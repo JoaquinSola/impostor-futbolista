@@ -249,15 +249,30 @@ button:hover {
     z-index: 999;
 }
 
-.overlay-card {
-    background: #222;
-    padding: 30px;
-    border-radius: 20px;
-    text-align: center;
-    width: 90%;
-    max-width: 400px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-}
+ .overlay-card {
+  background: #222;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+ }
+
+ 
+ #secretImageContainer {
+  display: flex; /* Convertir el contenedor en un flex container */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente (opcional, depende del tamaño de la imagen y el contenedor) */
+  margin-bottom: 15px; /* Mantener el margen inferior */
+ }
+
+ #secretImage {
+  max-width: 100%;
+  border-radius: 10px;
+  display: block; /* Asegurar que la imagen se comporte como bloque para el centrado */
+  margin: 0 auto; /* Otra forma de centrar horizontalmente elementos bloque */
+ }
 
 .overlay.hidden {
     display: none;

@@ -134,36 +134,49 @@ io.on("connection", (socket) => {
 
 });
 
+
+
 function startGame(roomId) {
   const room = rooms.get(roomId);
   if (!room) return;
 
-  const ids = Object.keys(room.players).filter(id=>room.players[id].state==="alive");
-  if (ids.length<3) return;
+  const ids = Object.keys(room.players).filter(id => room.players[id].state === "alive");
+  if (ids.length < 3) return;
 
-  room.status="playing";
-  room.votes={};
+  room.status = "playing";
+  room.votes = {};
 
-  ids.forEach(id => { room.players[id].isImpostor=false; room.players[id].assignment=null; });
+  ids.forEach((id) => {
+    room.players[id].isImpostor = false;
+    room.players[id].assignment = null;
+  });
 
-  const impostorId = ids[Math.floor(Math.random()*ids.length)];
-  const footballer = FOOTBALLERS[Math.floor(Math.random()*FOOTBALLERS.length)];
-  room.footballer = footballer;
+  const impostorId = ids[Math.floor(Math.random() * ids.length)];
+  
+  // Seleccionar un objeto de futbolista completo
+  const footballerObj = FOOTBALLERS[Math.floor(Math.random() * FOOTBALLERS.length)];
+  room.footballer = footballerObj.name; // Almacena solo el nombre en el estado de la sala
 
-  ids.forEach(id => {
-    const isImpostor = id===impostorId;
+  ids.forEach((id) => {
+    const isImpostor = id === impostorId;
     room.players[id].isImpostor = isImpostor;
-    room.players[id].assignment = isImpostor ? "Impostor" : footballer;
+    room.players[id].assignment = isImpostor ? "Impostor" : footballerObj.name;
     room.players[id].state = "alive";
     room.players[id].ready = false;
-
-    io.to(id).emit("roleAssigned", { role: isImpostor?"Impostor":"Futbolista", value: isImpostor?"Impostor":footballer });
+    
+    // ➡️ Enviamos la URL y el nombre al cliente
+    io.to(id).emit("roleAssigned", {
+      role: isImpostor ? "Impostor" : "Futbolista",
+      value: isImpostor ? "Impostor" : footballerObj.name,
+      image: isImpostor ? null : footballerObj.image // Solo enviamos la imagen si no es el impostor
+    });
   });
 
   io.to(roomId).emit("gameStarted", { playerCount: ids.length });
   io.to(roomId).emit("roomUpdate", publicRoomState(room));
   io.to(roomId).emit("players", room.players);
 }
+
 
 function restartRound(roomId) {
   const room = rooms.get(roomId);
