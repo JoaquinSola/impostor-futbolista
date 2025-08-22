@@ -1,156 +1,156 @@
 {
   "footballers": [
-  {
-  "name": "Lionel Messi",
-  "image": "/imagenes/Lionel_Messi.jpg"
-  },
-  {
-  "name": "Cristiano Ronaldo",
-  "image": "/imagenes/Cristiano_Ronaldo.jpg"
-  },
-  {
-  "name": "Kylian Mbappé",
-  "image": "/imagenes/Kylian_Mbappé.jpg"
-  },
-  {
-  "name": "Erling Haaland",
-  "image": "/imagenes/Erling_Haaland.jpg"
-  },
-  {
-  "name": "Kevin De Bruyne",
-  "image": "/imagenes/Kevin_DeBruyne.jpg"
-  },
-  {
-  "name": "Robert Lewandowski",
-  "image": "/imagenes/Robert_Lewandowski.jpg"
-  },
-  {
-  "name": "Vinicius Jr.",
-  "image": "/imagenes/Vinicius_Jr.jpg"
-  },
-  {
-  "name": "Jude Bellingham",
-  "image": "/imagenes/Jude_Bellingham.jpg"
-  },
-  {
-  "name": "Mohamed Salah",
-  "image": "/imagenes/Mohamed_Salah.jpg"
-  },
-  {
-  "name": "Harry Kane",
-  "image": "/imagenes/Harry_Kane.jpg"
-  },
-  {
-  "name": "Phil Foden",
-  "image": "/imagenes/Phil_Foden.jpg"
-  },
-  {
-  "name": "Federico Valverde",
-  "image": "/imagenes/Federico_Valverde.jpg"
-  },
-  {
-  "name": "Lautaro Martínez",
-  "image": "/imagenes/Lautaro_Martínez.jpg"
-  },
-  {
-  "name": "Ángel Di María",
-  "image": "/imagenes/Ángel_Di_María.jpg"
-  },
-  {
-  "name": "Neymar Jr.",
-  "image": "/imagenes/Neymar_Jr.jpg"
-  },
-  {
-  "name": "Luka Modrić",
-  "image": "/imagenes/Luka_Modrić.jpg"
-  },
-  {
-  "name": "Toni Kroos",
-  "image": "/imagenes/Toni_Kroos.jpg"
-  },
-  {
-  "name": "Casemiro",
-  "image": "/imagenes/Casemiro.jpg"
-  },
-  {
-  "name": "Sergio Ramos",
-  "image": "/imagenes/Sergio_Ramos.jpg"
-  },
-  {
-  "name": "Marc-André ter Stegen",
-  "image": "/imagenes/Marc-André_ter_Stegen.jpg"
-  },
-  {
-  "name": "Dibu Martínez",
-  "image": "/imagenes/Dibu_Martínez.jpg"
-  },
-  {
-  "name": "Julián Álvarez",
-  "image": "/imagenes/Julián_Álvarez.jpg"
-  },
-  {
-  "name": "Enzo Fernández",
-  "image": "/imagenes/Enzo_Fernández.jpg"
-  },
-  {
-  "name": "Alexis Mac Allister",
-  "image": "/imagenes/Alexis_Mac_Allister.jpg"
-  },
-  {
-  "name": "Guido Rodríguez",
-  "image": "/imagenes/Guido_Rodríguez.jpg"
-  },
-  {
-  "name": "Nahuel Molina",
-  "image": "/imagenes/Nahuel_Molina.jpg"
-  },
-  {
-  "name": "Marcos Acuña",
-  "image": "/imagenes/Marcos_Acuña.jpg"
-  },
-  {
-  "name": "Nicolás Otamendi",
-  "image": "/imagenes/Nicolás_Otamendi.jpg"
-  },
-  {
-  "name": "Exequiel Palacios",
-  "image": "/imagenes/Exequiel_Palacios.jpg"
-  },
-  {
-  "name": "Paulo Dybala",
-  "image": "/imagenes/Paulo_Dybala.jpg"
-  },
-  {
-  "name": "Sergio Agüero",
-  "image": "/imagenes/Sergio_Agüero.jpg"
-  },
-  {
-  "name": "Juan Román Riquelme",
-  "image": "/imagenes/Juan_Román_Riquelme.jpg"
-  },
-  {
-  "name": "Carlos Tevez",
-  "image": "/imagenes/Carlos_Tevez.jpg"
-  },
-  {
-  "name": "Diego Maradona",
-  "image": "/imagenes/Diego_Maradona.jpg"
-  },
-  {
-  "name": "Andrés Iniesta",
-  "image": "/imagenes/Andrés_Iniesta.jpg"
-  },
-  {
-  "name": "Xavi Hernández",
-  "image": "/imagenes/Xavi_Hernández.jpg"
-  },
-  {
-  "name": "Zlatan Ibrahimović",
-  "image": "/imagenes/Zlatan_Ibrahimović.jpg"
-  },
-  {
-  "name": "Gareth Bale",
-  "image": "/imagenes/Gareth_Bale.jpg"
-  }
+    {
+      "name": "Santiago Maratea",
+      "image": "/imagenes/Santiago_Maratea.jpg"
+    },
+    {
+      "name": "Coscu (Martín Pérez Disalvo)",
+      "image": "/imagenes/Coscu.jpg"
+    },
+    {
+      "name": "Momo Benavides",
+      "image": "/imagenes/Momo_Benavides.jpg"
+    },
+    {
+      "name": "Duki",
+      "image": "/imagenes/Duki.jpg"
+    },
+    {
+      "name": "Nicki Nicole",
+      "image": "/imagenes/Nicki_Nicole.jpg"
+    },
+    {
+      "name": "Bizarrap",
+      "image": "/imagenes/Bizarrap.jpg"
+    },
+    {
+      "name": "La Joaqui",
+      "image": "/imagenes/La_Joaqui.jpg"
+    },
+    {
+      "name": "Marito Baracus",
+      "image": "/imagenes/Marito_Baracus.jpg"
+    },
+    {
+      "name": "LIT Killah",
+      "image": "/imagenes/LIT_Killah.jpg"
+    },
+    {
+      "name": "Cande Copello",
+      "image": "/imagenes/Cande_Copello.jpg"
+    },
+    {
+      "name": "Kevsho",
+      "image": "/imagenes/Kevsho.jpg"
+    },
+    {
+      "name": "Sofi Morandi",
+      "image": "/imagenes/Sofi_Morandi.jpg"
+    },
+    {
+      "name": "Guido Kaczka",
+      "image": "/imagenes/Guido_Kaczka.jpg"
+    },
+    {
+      "name": "Lizy Tagliani",
+      "image": "/imagenes/Lizy_Tagliani.jpg"
+    },
+    {
+      "name": "Flor Vigna",
+      "image": "/imagenes/Flor_Vigna.jpg"
+    },
+    {
+      "name": "Stefi Roitman",
+      "image": "/imagenes/Stefi_Roitman.jpg"
+    },
+    {
+      "name": "China Suárez",
+      "image": "/imagenes/China_Suarez.jpg"
+    },
+    {
+      "name": "Tini Stoessel",
+      "image": "/imagenes/Tini_Stoessel.jpg"
+    },
+    {
+      "name": "Paulo Londra",
+      "image": "/imagenes/Paulo_Londra.jpg"
+    },
+    {
+      "name": "Peter Lanzani",
+      "image": "/imagenes/Peter_Lanzani.jpg"
+    },
+    {
+      "name": "Lali Espósito",
+      "image": "/imagenes/Lali_Esposito.jpg"
+    },
+    {
+      "name": "Nati Jota",
+      "image": "/imagenes/Nati_Jota.jpg"
+    },
+    {
+      "name": "Juani Velcoff",
+      "image": "/imagenes/Juani_Velcoff.jpg"
+    },
+    {
+      "name": "El Demente",
+      "image": "/imagenes/El_Demente.jpg"
+    },
+    {
+      "name": "Rod Contreras",
+      "image": "/imagenes/Rod_Contreras.jpg"
+    },
+    {
+      "name": "Robleis",
+      "image": "/imagenes/Robleis.jpg"
+    },
+    {
+      "name": "Grego Rossello",
+      "image": "/imagenes/Grego_Rossello.jpg"
+    },
+    {
+      "name": "Malena Narvay",
+      "image": "/imagenes/Malena_Narvay.jpg"
+    },
+    {
+      "name": "Nicolás Occhiato",
+      "image": "/imagenes/Nicolas_Occhiato.jpg"
+    },
+    {
+      "name": "Cris Morena",
+      "image": "/imagenes/Cris_Morena.jpg"
+    },
+    {
+      "name": "Luisana Lopilato",
+      "image": "/imagenes/Luisana_Lopilato.jpg"
+    },
+    {
+      "name": "Darío Barassi",
+      "image": "/imagenes/Dario_Barassi.jpg"
+    },
+    {
+      "name": "Mariana Genesio Peña",
+      "image": "/imagenes/Mariana_Genesio_Pena.jpg"
+    },
+    {
+      "name": "Martu Morales",
+      "image": "/imagenes/Martu_Morales.jpg"
+    },
+    {
+      "name": "Male Pichot",
+      "image": "/imagenes/Male_Pichot.jpg"
+    },
+    {
+      "name": "Cande Tinelli",
+      "image": "/imagenes/Cande_Tinelli.jpg"
+    },
+    {
+      "name": "Pablo Agustín",
+      "image": "/imagenes/Pablo_Agustin.jpg"
+    },
+    {
+      "name": "Belu Lucius",
+      "image": "/imagenes/Belu_Lucius.jpg"
+    }
   ]
- }
+}
