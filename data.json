@@ -1,156 +1,65 @@
 {
   "footballers": [
-    {
-      "name": "Santiago Maratea",
-      "image": "/imagenes/Santiago_Maratea.jpg"
-    },
-    {
-      "name": "Coscu (Martín Pérez Disalvo)",
-      "image": "/imagenes/Coscu.jpg"
-    },
-    {
-      "name": "Momo Benavides",
-      "image": "/imagenes/Momo_Benavides.jpg"
-    },
-    {
-      "name": "Duki",
-      "image": "/imagenes/Duki.jpg"
-    },
-    {
-      "name": "Nicki Nicole",
-      "image": "/imagenes/Nicki_Nicole.jpg"
-    },
-    {
-      "name": "Bizarrap",
-      "image": "/imagenes/Bizarrap.jpg"
-    },
-    {
-      "name": "La Joaqui",
-      "image": "/imagenes/La_Joaqui.jpg"
-    },
-    {
-      "name": "Marito Baracus",
-      "image": "/imagenes/Marito_Baracus.jpg"
-    },
-    {
-      "name": "LIT Killah",
-      "image": "/imagenes/LIT_Killah.jpg"
-    },
-    {
-      "name": "Cande Copello",
-      "image": "/imagenes/Cande_Copello.jpg"
-    },
-    {
-      "name": "Kevsho",
-      "image": "/imagenes/Kevsho.jpg"
-    },
-    {
-      "name": "Sofi Morandi",
-      "image": "/imagenes/Sofi_Morandi.jpg"
-    },
-    {
-      "name": "Guido Kaczka",
-      "image": "/imagenes/Guido_Kaczka.jpg"
-    },
-    {
-      "name": "Lizy Tagliani",
-      "image": "/imagenes/Lizy_Tagliani.jpg"
-    },
-    {
-      "name": "Flor Vigna",
-      "image": "/imagenes/Flor_Vigna.jpg"
-    },
-    {
-      "name": "Stefi Roitman",
-      "image": "/imagenes/Stefi_Roitman.jpg"
-    },
-    {
-      "name": "China Suárez",
-      "image": "/imagenes/China_Suarez.jpg"
-    },
-    {
-      "name": "Tini Stoessel",
-      "image": "/imagenes/Tini_Stoessel.jpg"
-    },
-    {
-      "name": "Paulo Londra",
-      "image": "/imagenes/Paulo_Londra.jpg"
-    },
-    {
-      "name": "Peter Lanzani",
-      "image": "/imagenes/Peter_Lanzani.jpg"
-    },
-    {
-      "name": "Lali Espósito",
-      "image": "/imagenes/Lali_Esposito.jpg"
-    },
-    {
-      "name": "Nati Jota",
-      "image": "/imagenes/Nati_Jota.jpg"
-    },
-    {
-      "name": "Juani Velcoff",
-      "image": "/imagenes/Juani_Velcoff.jpg"
-    },
-    {
-      "name": "El Demente",
-      "image": "/imagenes/El_Demente.jpg"
-    },
-    {
-      "name": "Rod Contreras",
-      "image": "/imagenes/Rod_Contreras.jpg"
-    },
-    {
-      "name": "Robleis",
-      "image": "/imagenes/Robleis.jpg"
-    },
-    {
-      "name": "Grego Rossello",
-      "image": "/imagenes/Grego_Rossello.jpg"
-    },
-    {
-      "name": "Malena Narvay",
-      "image": "/imagenes/Malena_Narvay.jpg"
-    },
-    {
-      "name": "Nicolás Occhiato",
-      "image": "/imagenes/Nicolas_Occhiato.jpg"
-    },
-    {
-      "name": "Cris Morena",
-      "image": "/imagenes/Cris_Morena.jpg"
-    },
-    {
-      "name": "Luisana Lopilato",
-      "image": "/imagenes/Luisana_Lopilato.jpg"
-    },
-    {
-      "name": "Darío Barassi",
-      "image": "/imagenes/Dario_Barassi.jpg"
-    },
-    {
-      "name": "Mariana Genesio Peña",
-      "image": "/imagenes/Mariana_Genesio_Pena.jpg"
-    },
-    {
-      "name": "Martu Morales",
-      "image": "/imagenes/Martu_Morales.jpg"
-    },
-    {
-      "name": "Male Pichot",
-      "image": "/imagenes/Male_Pichot.jpg"
-    },
-    {
-      "name": "Cande Tinelli",
-      "image": "/imagenes/Cande_Tinelli.jpg"
-    },
-    {
-      "name": "Pablo Agustín",
-      "image": "/imagenes/Pablo_Agustin.jpg"
-    },
-    {
-      "name": "Belu Lucius",
-      "image": "/imagenes/Belu_Lucius.jpg"
-    }
+    { "name": "Lionel Messi", "image": "/imagenes/Lionel_Messi.jpg" },
+    { "name": "Cristiano Ronaldo", "image": "/imagenes/Cristiano_Ronaldo.jpg" },
+    { "name": "Kylian Mbappé", "image": "/imagenes/Kylian_Mbappé.jpg" },
+    { "name": "Erling Haaland", "image": "/imagenes/Erling_Haaland.jpg" },
+    { "name": "Kevin De Bruyne", "image": "/imagenes/Kevin_De_Bruyne.jpg" },
+    { "name": "Robert Lewandowski", "image": "/imagenes/Robert_Lewandowski.jpg" },
+    { "name": "Vinicius Jr.", "image": "/imagenes/Vinicius_Jr.jpg" },
+    { "name": "Jude Bellingham", "image": "/imagenes/Jude_Bellingham.jpg" },
+    { "name": "Mohamed Salah", "image": "/imagenes/Mohamed_Salah.jpg" },
+    { "name": "Neymar Jr.", "image": "/imagenes/Neymar_Jr.jpg" },
+    { "name": "Antoine Griezmann", "image": "/imagenes/Antoine_Griezmann.jpg" },
+    { "name": "Karim Benzema", "image": "/imagenes/Karim_Benzema.jpg" },
+    { "name": "Luka Modric", "image": "/imagenes/Luka_Modric.jpg" },
+    { "name": "Rodri", "image": "/imagenes/Rodri.jpg" },
+    { "name": "Phil Foden", "image": "/imagenes/Phil_Foden.jpg" },
+    { "name": "Federico Valverde", "image": "/imagenes/Federico_Valverde.jpg" },
+    { "name": "Bruno Fernandes", "image": "/imagenes/Bruno_Fernandes.jpg" },
+    { "name": "Harry Kane", "image": "/imagenes/Harry_Kane.jpg" },
+    { "name": "Heung-min Son", "image": "/imagenes/Heung_min_Son.jpg" },
+    { "name": "Pedri", "image": "/imagenes/Pedri.jpg" },
+    { "name": "Gavi", "image": "/imagenes/Gavi.jpg" },
+    { "name": "Olivier Giroud", "image": "/imagenes/Olivier_Giroud.jpg" },
+    { "name": "Marcus Rashford", "image": "/imagenes/Marcus_Rashford.jpg" },
+    { "name": "Achraf Hakimi", "image": "/imagenes/Achraf_Hakimi.jpg" },
+    { "name": "Lautaro Martínez", "image": "/imagenes/Lautaro_Martinez.jpg" },
+    { "name": "Julián Álvarez", "image": "/imagenes/Julian_Alvarez.jpg" },
+    { "name": "Ángel Di María", "image": "/imagenes/Angel_Di_Maria.jpg" },
+    { "name": "Emiliano Martínez", "image": "/imagenes/Emiliano_Martinez.jpg" },
+    { "name": "Rodrigo De Paul", "image": "/imagenes/Rodrigo_De_Paul.jpg" },
+    { "name": "Enzo Fernández", "image": "/imagenes/Enzo_Fernandez.jpg" },
+    { "name": "Lisandro Martínez", "image": "/imagenes/Lisandro_Martinez.jpg" },
+    { "name": "Álvaro Morata", "image": "/imagenes/Alvaro_Morata.jpg" },
+    { "name": "Joshua Kimmich", "image": "/imagenes/Joshua_Kimmich.jpg" },
+    { "name": "Jamal Musiala", "image": "/imagenes/Jamal_Musiala.jpg" },
+    { "name": "Rafael Leão", "image": "/imagenes/Rafael_Leao.jpg" },
+    { "name": "Frenkie de Jong", "image": "/imagenes/Frenkie_De_Jong.jpg" },
+    { "name": "Christian Pulisic", "image": "/imagenes/Christian_Pulisic.jpg" },
+    { "name": "Sandro Tonali", "image": "/imagenes/Sandro_Tonali.jpg" },
+    { "name": "Khvicha Kvaratskhelia", "image": "/imagenes/Khvicha_Kvaratskhelia.jpg" },
+    { "name": "Raphael Varane", "image": "/imagenes/Raphael_Varane.jpg" },
+    { "name": "Declan Rice", "image": "/imagenes/Declan_Rice.jpg" },
+    { "name": "Eduardo Camavinga", "image": "/imagenes/Eduardo_Camavinga.jpg" },
+    { "name": "Aurélien Tchouaméni", "image": "/imagenes/Aurelien_Tchouameni.jpg" },
+    { "name": "João Félix", "image": "/imagenes/Joao_Felix.jpg" },
+    { "name": "Riyad Mahrez", "image": "/imagenes/Riyad_Mahrez.jpg" },
+    { "name": "Bernardo Silva", "image": "/imagenes/Bernardo_Silva.jpg" },
+    { "name": "Trent Alexander-Arnold", "image": "/imagenes/Trent_Alexander_Arnold.jpg" },
+    { "name": "Virgil van Dijk", "image": "/imagenes/Virgil_van_Dijk.jpg" },
+    { "name": "Alisson Becker", "image": "/imagenes/Alisson_Becker.jpg" },
+    { "name": "Thibaut Courtois", "image": "/imagenes/Thibaut_Courtois.jpg" },
+    { "name": "Casemiro", "image": "/imagenes/Casemiro.jpg" },
+    { "name": "Rapinha", "image": "/imagenes/Rapinha.jpg" },
+    { "name": "Gabriel Jesus", "image": "/imagenes/Gabriel_Jesus.jpg" },
+    { "name": "Gabriel Martinelli", "image": "/imagenes/Gabriel_Martinelli.jpg" },
+    { "name": "Bukayo Saka", "image": "/imagenes/Bukayo_Saka.jpg" },
+    { "name": "Kai Havertz", "image": "/imagenes/Kai_Havertz.jpg" },
+    { "name": "Mason Mount", "image": "/imagenes/Mason_Mount.jpg" },
+    { "name": "Raheem Sterling", "image": "/imagenes/Raheem_Sterling.jpg" },
+    { "name": "Sadio Mané", "image": "/imagenes/Sadio_Mane.jpg" },
+    { "name": "Joško Gvardiol", "image": "/imagenes/Josko_Gvardiol.jpg" },
+    { "name": "Ederson Moraes", "image": "/imagenes/Ederson_Moraes.jpg" }
   ]
 }
