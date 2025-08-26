@@ -5,7 +5,7 @@ Estilos Generales y del Body
 */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #4a90e2, #50e3c2);
+    background: linear-gradient(135deg, #fff, #959595);
     color: #fff;
     margin: 0;
     padding: 0;
